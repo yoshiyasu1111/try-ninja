@@ -67,3 +67,5 @@ ninja -t clean
 ## 関連記事
 
 このリポジトリは、以下の記事で使用しているサンプルコードです。
+
+[Qiita - お試しninja](https://qiita.com/yoshiyasu1111/items/fb1b0222c6d1e3837e8c)
