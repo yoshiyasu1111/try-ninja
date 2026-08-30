@@ -1,0 +1,1 @@
+long long gcd(long long x, long long y);

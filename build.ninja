@@ -1,0 +1,12 @@
+cxx = g++
+cxxflags = -Wall
+
+rule compile
+  command = $cxx $cxxflags -c $in -o $out
+
+rule link
+  command = $cxx $in -o $out
+
+build main.o: compile main.cc
+build gcd.o: compile gcd.cc
+build main: link main.o gcd.o
